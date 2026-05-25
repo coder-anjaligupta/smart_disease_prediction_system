@@ -1,0 +1,18 @@
+.main { background-color: #f8fafc; }
+
+.header-container {
+    padding: 30px;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.pro-title {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.report-card {
+    background: white;
+    border-left: 6px solid #3b82f6;
+    padding: 15px;
+}

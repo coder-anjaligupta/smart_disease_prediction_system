@@ -1,0 +1,17 @@
+.stTabs [data-baseweb="tab"] {
+    color: #60a5fa !important;
+    font-weight: 600;
+}
+.stTabs [aria-selected="true"] {
+    color: #2563eb !important;
+    border-bottom-color: #2563eb !important;
+}
+
+.stButton>button {
+    width: 100%;
+    border-radius: 12px;
+    height: 3em;
+    background-color: #1e3a8a !important;
+    color: white !important;
+    font-weight: bold;
+}

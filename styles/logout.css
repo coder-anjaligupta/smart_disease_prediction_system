@@ -1,0 +1,4 @@
+div.stButton > button:first-child {
+    background-color: #1e3a8a !important;
+    color: white !important;
+}
