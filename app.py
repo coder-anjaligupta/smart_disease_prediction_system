@@ -180,7 +180,7 @@ else:
         </style>
 
         <div class="header-container">
-            <h1 class="pro-title"><span class="pulse">🩺</span>Welcome to Disease Prediction System</h1>
+            <h1 class="pro-title"><span class="pulse">🩺</span> Welcome to Disease Prediction System</h1>
             <p style="color: #64748b; font-size: 18px;">Get a quick health assessment using predefined medical ranges.</p>
         </div>
     """, unsafe_allow_html=True)
