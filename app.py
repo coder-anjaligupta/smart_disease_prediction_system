@@ -1,5 +1,4 @@
 
-
 import streamlit as st
 import sqlite3
 import numpy as np
@@ -181,8 +180,8 @@ else:
         </style>
 
         <div class="header-container">
-            <h1 class="pro-title"><span class="pulse">🩺</span> Welcome to Smart Disease Predictor</h1>
-            <p style="color: #64748b; font-size: 18px;">Get an accurate analysis of your health parameters using Advanced AI.</p>
+            <h1 class="pro-title"><span class="pulse">🩺</span>Welcome to Disease Prediction System</h1>
+            <p style="color: #64748b; font-size: 18px;">Get a quick health assessment using predefined medical ranges.</p>
         </div>
     """, unsafe_allow_html=True)
 
@@ -220,7 +219,7 @@ else:
         # Radio button to select disease type
         option = st.radio("Select Disease", ["Diabetes", "Heart Disease", "Kidney Disease"])
         st.write("---")
-        st.info("System: Active\nStatus: Local AI Engine")
+        st.info("System: Active\nStatus: Medical Criteria Engine")
 
     # Show selected disease form heading
     st.markdown(f'<div class="report-card"><h3>📊 {option} Analysis Form</h3></div>', unsafe_allow_html=True)
@@ -277,4 +276,4 @@ else:
                 st.success("✨ Kidney Function: Normal.")
 
     st.write("---")
-    st.caption("Developed for Academic Project | © 2026 Smart Disease Prediction System")
+    st.caption("Developed for Academic Project | © May 2026 Smart Disease Prediction System")
