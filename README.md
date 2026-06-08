@@ -1,4 +1,4 @@
-# 🩺 Smart Disease Prediction System
+# 🩺 Rule-Based Health Advisory System
 
 A simple and interactive health prediction web application built using **Python**, **Streamlit**, and **SQLite**.
 
@@ -21,7 +21,8 @@ The system includes:
 
 # 📌 Project Overview
 
-The Smart Disease Prediction System is a healthcare web application that allows users to enter health details and get a prediction report.
+The Rule-Based Health Advisory System
+ is a healthcare web application that allows users to enter health details and get a prediction report.
 
 The application calculates risk probability using custom prediction logic and displays the result in a clean and user-friendly dashboard.
 
@@ -74,7 +75,7 @@ Checks risk using:
 # 📂 Project Structure
 
 ```bash
-Smart_Disease_Prediction_System/
+health_advisory/
 │
 ├── app.py
 ├── auth.py
@@ -97,13 +98,13 @@ Smart_Disease_Prediction_System/
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/coder-anjaligupta/Smart_Disease_Prediction_System.git
+git clone https://github.com/coder-anjaligupta/Rule_Based_Health_Advisory_System.git
 ```
 
 ## 2️⃣ Open Project Folder
 
 ```bash
-cd Smart_Disease_Prediction_System
+cd Rule_Based_Health_Advisory_System
 ```
 
 ## 3️⃣ Install Required Libraries
@@ -219,13 +220,5 @@ Always consult a certified doctor for medical diagnosis.
 
 Developed by: Anjali Gupta
 
----
 
-# ⭐ GitHub Support
-
-If you like this project:
-
-⭐ Star the repository
-🍴 Fork the project
-📢 Share with others
 

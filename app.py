@@ -130,7 +130,7 @@ else:
     import numpy as np
 
     # Set page title and layout for dashboard
-    st.set_page_config(page_title="Smart Disease Predictor", layout="centered")
+    st.set_page_config(page_title="Rule Based Health Advisory ", layout="centered")
 
     # CSS for main dashboard design
     st.markdown("""
@@ -180,7 +180,7 @@ else:
         </style>
 
         <div class="header-container">
-            <h1 class="pro-title"><span class="pulse">🩺</span> Welcome to Disease Prediction System</h1>
+            <h1 class="pro-title"><span class="pulse">🩺</span> Welcome to Rule Based Health Advisory System</h1>
             <p style="color: #64748b; font-size: 18px;">Get a quick health assessment using predefined medical ranges.</p>
         </div>
     """, unsafe_allow_html=True)
@@ -276,4 +276,4 @@ else:
                 st.success("✨ Kidney Function: Normal.")
 
     st.write("---")
-    st.caption("Developed for Academic Project | © May 2026 Smart Disease Prediction System")
+    st.caption("Developed for Academic Project | © May 2026 Rule Based Health Advisory System")
