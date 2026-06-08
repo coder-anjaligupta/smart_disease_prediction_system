@@ -75,7 +75,7 @@ Checks risk using:
 # 📂 Project Structure
 
 ```bash
-health_advisory/
+rule_based_health_advisory_system/
 │
 ├── app.py
 ├── auth.py
@@ -98,13 +98,13 @@ health_advisory/
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/coder-anjaligupta/Rule_Based_Health_Advisory_System.git
+git clone https://github.com/coder-anjaligupta/rule_based_health_advisory_system.git
 ```
 
 ## 2️⃣ Open Project Folder
 
 ```bash
-cd Rule_Based_Health_Advisory_System
+cd rule_based_health_advisory_system
 ```
 
 ## 3️⃣ Install Required Libraries
